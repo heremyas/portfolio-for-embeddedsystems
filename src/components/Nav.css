@@ -1,0 +1,47 @@
+.menu {
+  position: fixed;
+  right: 20px;
+  bottom: 50%;
+  height: 180px;
+  width: fit-content;
+
+  display: flex;
+  flex-direction: column;
+  /* justify-content: space-around; */
+  z-index: 1;
+  border: var(--mainColor) 1px solid;
+}
+
+.menu > * {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  flex: 1;
+}
+
+.odd {
+  height: 100%;
+  background-color: var(--secondaryColor);
+  color: var(--mainColor);
+  width: 100%;
+  height: 100%;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.even {
+  color: #fff;
+  background-color: var(--mainColor);
+  width: 100%;
+  height: 100%;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+@media screen and (max-width: 768px) {
+  .menu {
+    bottom: 20px;
+  }
+}

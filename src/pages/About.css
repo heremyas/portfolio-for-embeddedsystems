@@ -1,0 +1,44 @@
+.aboutMe {
+  padding: 20px;
+  margin: 6rem;
+  border-right: var(--mainColor) 3px solid;
+  border-bottom: var(--mainColor) 3px solid;
+  line-height: 1.5rem;
+  text-align: end;
+  text-justify: inter-word;
+}
+
+.myAbout {
+  left: 50px;
+}
+
+.secondRight {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  min-height: 100vh;
+  background-color: var(--mainColor);
+  color: #fff;
+  position: relative;
+}
+
+@media screen and (max-width: 768px) {
+  .myAbout {
+    text-align: center;
+    left: 0;
+  }
+
+  .About {
+    flex-direction: column-reverse;
+  }
+
+  .secondLeft,
+  .secondRight {
+    width: 100%;
+    height: 100%;
+  }
+
+  .aboutMe {
+    margin: 3rem;
+  }
+}
