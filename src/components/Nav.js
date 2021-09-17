@@ -12,8 +12,12 @@ function Nav() {
         <div className="even">About</div>
       </a>
 
-      <a href="#projects">
-        <div className="odd">Projects</div>
+      <a href="#education">
+        <div className="odd">Education</div>
+      </a>
+
+      <a href="#certificates">
+        <div className="even">Certs</div>
       </a>
     </div>
   );

@@ -1,5 +1,6 @@
 :root {
-  --mainColor:  rgb(63, 31, 31);
+  /* --mainColor:  rgb(63, 31, 31); */
+  --mainColor: #023047;
   --secondaryColor: #fff;
 }
 

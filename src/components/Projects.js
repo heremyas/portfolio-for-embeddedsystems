@@ -4,32 +4,8 @@ import "./Projects.css";
 function Projects() {
   return (
     <div className="Projects">
-      {/* <div className="projects_container">
-        <img src="https://via.placeholder.com/150/24f355"></img>
-        <div>
-          <p className="project_title">BOTANIM</p>
-          <p>
-            <span>
-              <strong>Description: </strong>
-            </span>{" "}
-            Deserunt eiusmod eu excepteur pariatur proident aute duis sit ad.
-            Adipisicing cupidatat ut quis adipisicing magna. Minim occaecat sunt
-            fugiat qui. Tempor eiusmod ut nostrud incididunt consequat irure
-            voluptate eu. Ipsum dolor aliqua qui fugiat ullamco ipsum.
-            Reprehenderit in ad ex sit laborum non consectetur sit et do
-            occaecat.
-            <span>
-              <a href="#">
-                <strong>Preview here</strong>
-              </a>
-            </span>
-          </p>
-        </div>
-      </div> */}
-
       <div className="projects_container projects_container_odd">
         <div className="img_container">
-          <img alt="Project Thumbnail" src="https://i.imgur.com/WdcaR9T.png" />
         </div>
         <div className="project_details_container">
           <p className="project_title">BOTANIM</p>
@@ -54,7 +30,7 @@ function Projects() {
       </div>
       <div className="projects_container projects_container_odd">
         <div className="img_container">
-          <img alt="Project Thumbnail" src="https://i.imgur.com/qSfYQwD.png" />
+          <img alt="Project Thumbnail" src="#" />
         </div>
         <div className="project_details_container">
           <p className="project_title">JEM TECH</p>

@@ -1,20 +1,19 @@
 import React from "react";
-import Projects from "../components/Projects";
-import "./ProjectsPage.css";
+import EducationBackground from "../components/EducationBackground";
 
-function ProjectsPage() {
+function Education() {
   return (
-    <div id="projects" className="ProjectsPage">
+    <div id="education" className="ProjectsPage">
       <section className="thirdLeft">
         <div className="box">
           <h1 className="myName">Education</h1>
         </div>
       </section>
       <section className="thirdRight">
-        <Projects />
+        <EducationBackground />
       </section>
     </div>
   );
 }
 
-export default ProjectsPage;
+export default Education;

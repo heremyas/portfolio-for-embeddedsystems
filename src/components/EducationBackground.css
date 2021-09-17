@@ -1,0 +1,14 @@
+.school_item_container {
+  display: flex;
+  /* width: 100%; */
+align-items: center;
+margin: 50px;
+}
+
+.school_logo_container {
+  width: 100px;
+}
+
+.school_logo_container img {
+  width: 100%;
+}
